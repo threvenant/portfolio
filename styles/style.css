@@ -145,15 +145,34 @@ body {
     .container {
         flex-direction: column-reverse;
         padding: 4.5% 5%;
+        gap: 52px;
     }
     .cabecalho {
-        padding: 3%
+        padding: 3%;
+        overflow: auto;
     }
+
+    .rodape {
+        overflow: auto;
+    }
+
     .cabecalho__naveg {
         justify-content: center;
     }
 
+    .cabecalho__naveg__link {
+        font-size: 1.05rem;
+    }
+
+    .cabecalho__naveg {
+        gap: 10%;
+    }
+
     .container__conteudo {
         width: auto;
+    }
+
+    .imgomundo {
+        width: 62%;
     }
 } 
