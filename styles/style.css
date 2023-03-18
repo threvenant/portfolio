@@ -161,11 +161,11 @@ body {
     }
 
     .cabecalho__naveg__link {
-        font-size: 1.05rem;
+        font-size: 1.15rem;
     }
 
     .cabecalho__naveg {
-        gap: 10%;
+        gap: 8%;
     }
 
     .container__conteudo {
