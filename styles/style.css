@@ -176,4 +176,8 @@ body {
     .imgomundo {
         width: 62%;
     }
+
+    #container-about2 {
+        flex-direction: column;
+    }
 } 
