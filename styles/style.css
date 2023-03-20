@@ -130,7 +130,9 @@ body {
 }
 
 .imgomundo {
-    width: 42%;
+    width: 36%;
+    border: 0.3125rem solid #FB2576;
+    border-radius: 20%;
 }
 
 .section__container__links {
@@ -145,7 +147,7 @@ body {
     .container {
         flex-direction: column-reverse;
         padding: 4.5% 5%;
-        gap: 52px;
+        gap: 40px;
     }
 
     .cabecalho {
@@ -155,6 +157,7 @@ body {
 
     .rodape {
         overflow: auto;
+        font-size: 1.15rem;
     }
 
     .cabecalho__naveg {
@@ -174,10 +177,27 @@ body {
     }
 
     .imgomundo {
-        width: 62%;
+        width: 52%;
+        border: 0.2125rem solid #FB2576;
     }
 
     #container-about2 {
         flex-direction: column;
+    }
+
+    .container__conteudo__h1 {
+        font-size: 1.90rem;
+    }
+
+    .container__conteudo__p {
+        font-size: 1.15rem;
+    }
+
+    .container__links__linkbox {
+        font-size: 1.15rem;
+    }
+
+    .container__links__h2 {
+        font-size: 1.15rem;
     }
 } 
